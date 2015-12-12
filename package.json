@@ -1,0 +1,25 @@
+{
+  "name": "testexample",
+  "version": "1.0.0",
+  "description": "ejemplo de test con supertets y express",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrdzero/testExampleAPP.git"
+  },
+  "keywords": [
+    "Express"
+  ],
+  "author": "Rosendo Ismael Fernandez Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lrdzero/testExampleAPP/issues"
+  },
+  "homepage": "https://github.com/lrdzero/testExampleAPP#readme",
+  "devDependencies": {
+    "supertest": "^1.1.0"
+  }
+}
