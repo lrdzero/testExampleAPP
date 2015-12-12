@@ -1,9 +1,6 @@
 # Directorio instalación módulos
 node_modules
 
-# Archivo de base de datos
-test.db
-
 # Logs y copias de seguridad
 *.log
 *~
