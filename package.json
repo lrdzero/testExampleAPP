@@ -4,6 +4,7 @@
   "description": "ejemplo de test con supertets y express",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "mocha test"
   },
   "repository": {
@@ -20,6 +21,12 @@
   },
   "homepage": "https://github.com/lrdzero/testExampleAPP#readme",
   "devDependencies": {
+    "supertest": "^1.1.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
     "supertest": "^1.1.0"
   }
 }
