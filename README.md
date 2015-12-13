@@ -1,3 +1,3 @@
 # testExampleAPP
 
-Aplicaicón básica para puebas de test express
+Aplicación básica para puebas de test express
