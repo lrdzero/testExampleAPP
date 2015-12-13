@@ -21,4 +21,10 @@ describe('Mis pruebas', function()
 			.expect("Content-Type", /text\/html/)
 			.expect(200, done);
 	});
+	it("Cuarta página", function(done) {
+		request(app)
+			.get("/cuartapagina")
+			.expect("Content-Type", /text\/html/)
+			.expect(200, done);
+	});
 });

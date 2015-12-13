@@ -24,11 +24,19 @@ app.get('/pagina1', function (req, res) {
 
 app.get('/pagina2', function (req, res) {
 	var pagina='<!doctype html><html><head></head><body>';   
-    pagina +='<form action=\"/\" method=\"get\"> Última pagina <br><input type=\"submit\" value=\"Volver inicio\"></fomr><br>';  
+    pagina +='<form action=\"cuartapagina\" method=\"get\"> Última pagina <br><input type=\"submit\" value=\"Volver inicio\"></fomr><br>';  
 
     pagina += '</body></html>';
 	res.send(pagina);
 });  
+
+app.get('/cuartapagina', function (req, res) {
+	var pagina='<!doctype html><html><head></head><body>';   
+    pagina +='<form action=\"/\" method=\"get\"> Pagina adicional <br><input type=\"submit\" value=\"Volver inicio\"></fomr><br>';  
+
+    pagina += '</body></html>';
+	res.send(pagina);
+}); 
 
 app.listen(app.get('port'), function() {
   console.log('Node app is running on port', app.get('port'));
